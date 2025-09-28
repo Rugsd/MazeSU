@@ -1,1 +1,22 @@
-
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Labirintus — Több pálya</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Labirintus</h1>
+    <p class="hint">Használd a nyilakat a mozgatáshoz. Cél: a zöld mezőre lépni.</p>
+    <div id="hud">
+      <span id="levelLabel">Pálya: 1</span>
+      <button id="resetBtn">Újrajátszás</button>
+    </div>
+    <canvas id="game" width="600" height="600" tabindex="0"></canvas>
+    <p class="credits">Készítette: ChatGPT · Másold a repo-dba és futtasd a böngészőben</p>
+  </div>
+  <script src="game.js"></script>
+</body>
+</html>
